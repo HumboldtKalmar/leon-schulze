@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="https://use.typekit.net/bpb8uio.css"> <!-- Typekit -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- jQuery -->
+		<link rel="stylesheet" type="text/css" href="css/main.css"> <!-- General CSS -->
+		
+		<!--Custom CSS-->
+		<link rel="stylesheet" type="text/css" href="css/indicator.css"> <!-- Navigation CSS -->
+
+	</head>
+
+	<body>
+		
+		<div class="container">
+
+			<!--left-hand stays overall sections-->
+			<div class="container--left"></div>
+
+			<!--content related to section-->
+			<div class="container--content">
+
+				<section id="home">
+					
+					<div class="home--content">
+						<h1 style="font-size: 3em;">Sagittarius</h1>
+						<h2 style="font-size: 1em;">Leon Schulze | 09.12.1997</h2>
+					</div>
+
+				</section>
+				<section id="skills">skills</section>
+				<section id="contact">contact</section>
+
+			</div>
+
+			<!--navigation stays overall section-->
+			<div class="container--right">
+
+				<div class="nav--indicator">
+
+					<div class="nav--indicator__item" data-section="home">
+						<a href="#home">
+						<p>Home</p>
+						<div class="nav--indicator__item__circle"></div>
+						</a>
+					</div>
+
+					<div class="nav--indicator__item" data-section="skills">
+						<a href="#skills">
+						<p>Skills</p>
+						<div class="nav--indicator__item__circle"></div>
+						</a>
+					</div>
+
+					<div class="nav--indicator__item" data-section="contact">
+						<a href="#contact">
+						<p>Contact</p>
+						<div class="nav--indicator__item__circle"></div>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/nav_handler.js"></script> <!-- Navigation JS -->
+
+
+	</body>
+
+</html>
