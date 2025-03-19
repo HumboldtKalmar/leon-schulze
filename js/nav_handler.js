@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const navItems = document.querySelectorAll(".nav--indicator__item");
 
     const observer = new IntersectionObserver((entries) => {
-        let found = false;
+        let found = false; 
         entries.forEach((entry) => {
             if (entry.isIntersecting && !found) {
                 found = true;

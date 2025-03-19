@@ -22,7 +22,7 @@
 body {
 	background-image: var(--bg_img);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 	background-attachment: fixed;
 	background-position: center;
 }
