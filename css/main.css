@@ -3,7 +3,7 @@
 /**/
 :root {
 	/*Images*/
-	--bg_img: url(../../img/paper_texture.jpg);
+	--bg_img: url(../img/paper_texture.jpg);
 	
 	/*Colors*/
 	--prim-color: #000000;
@@ -82,5 +82,4 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
